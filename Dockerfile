@@ -8,18 +8,18 @@ RUN conda install mamba \
     && conda config --add channels conda-forge \
     && conda config --set channel_priority strict \
     && mamba install --yes --quiet \
-    'geopandas' \
-    'momepy' \
-    'seaborn' \
-    'pygeos' \
-    'scikit-learn' \
-    'contextily' \
-    'legendgram' \
-    'pysal' \
-    'osmnx' \
-    'scipy' \
-    'clustergram' \
-    'dask' \
+    'geopandas==0.8.2' \
+    'momepy==0.4.2' \
+    'seaborn==0.11.1' \
+    'pygeos==0.8' \
+    'scikit-learn==0.24.1' \
+    'contextily==1.1.0' \
+    'legendgram==0.0.3' \
+    'pysal==2.3.0' \
+    'osmnx==1.0.1' \
+    'scipy==1.6.0' \
+    'clustergram==0.3.0' \
+    'dask==2021.1.1' \
     && conda clean --all --yes --force-pkgs-dirs \
     && find /opt/conda/ -follow -type f -name '*.a' -delete \
     && find /opt/conda/ -follow -type f -name '*.pyc' -delete \
