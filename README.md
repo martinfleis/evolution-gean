@@ -1,5 +1,7 @@
 # Evolution of urban patterns: urban morphology as an open reproducible data science
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/evolution-gean/HEAD)
+
 This repository contains complete reproducible workflow for a research paper "*Evolution of urban patterns: urban morphology as an open reproducible data science*".
 
 > Fleischmann M, Feliciotti A and Kerr W (2021) Evolution of urban patterns: urban morphology as an open reproducible data science. Geographical Analysis. DOI: 10.1111/gean.12302.
