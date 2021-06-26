@@ -1,6 +1,6 @@
 # Evolution of urban patterns: urban morphology as an open reproducible data science
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/evolution-gean/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/evolution-gean/HEAD) [![DOI](https://zenodo.org/badge/326164547.svg)](https://zenodo.org/badge/latestdoi/326164547)
 
 This repository contains complete reproducible workflow for a research paper "*Evolution of urban patterns: urban morphology as an open reproducible data science*".
 
@@ -21,6 +21,21 @@ Martin Fleischmann<sup>1</sup>, Alessandra Feliciotti<sup>2</sup>, William Kerr<
   year = {2021},
   doi = {10.1111/gean.12302},
   journal = {Geographical Analysis}
+}
+```
+
+The repository is archived as DOI: 10.5281/zenodo.5034747.
+
+```
+@software{martin_fleischmann_2021_5034747,
+  author       = {Martin Fleischmann},
+  title        = {martinfleis/evolution-gean: Repository archive},
+  month        = jun,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {archive},
+  doi          = {10.5281/zenodo.5034747},
+  url          = {https://doi.org/10.5281/zenodo.5034747}
 }
 ```
 
