@@ -1,5 +1,9 @@
 # Evolution of urban patterns: urban morphology as an open reproducible data science
 
+This repository contains complete reproducible workflow for a research paper "*Evolution of urban patterns: urban morphology as an open reproducible data science*".
+
+> Fleischmann M, Feliciotti A and Kerr W (2021) Evolution of urban patterns: urban morphology as an open reproducible data science. Geographical Analysis. DOI: 10.1111/gean.12302.
+
 Martin Fleischmann<sup>1</sup>, Alessandra Feliciotti<sup>2</sup>, William Kerr<sup>3</sup>
 
 1 Research Associate,  Department of Geography and Planning, University of Liverpool, m.fleischmann@liverpool.ac.uk.
@@ -7,8 +11,6 @@ Martin Fleischmann<sup>1</sup>, Alessandra Feliciotti<sup>2</sup>, William Kerr<
 2 Lecturer, Urban Design Studies Unit, Department of Architecture, University of Strathclyde, a.feliciotti@strath.ac.uk
 
 3 Urban Designer, Gillespies, will.kerr@gillespies.co.uk
-
-> Fleischmann M, Feliciotti A and Kerr W (2021) Evolution of urban patterns: urban morphology as an open reproducible data science. Geographical Analysis. DOI: 10.1111/gean.12302.
 
 ```
 @article{fleischmann2021,
@@ -21,8 +23,6 @@ Martin Fleischmann<sup>1</sup>, Alessandra Feliciotti<sup>2</sup>, William Kerr<
 ```
 
 ## Code and data
-
-This repository contains complete reproducible workflow for a research paper "*Evolution of urban patterns: urban morphology as an open reproducible data science*".
 
 The research has been executed within a Docker container `martinfleis/momepy:0.4.2`. Alternatively, the environment can be built using a `Dockerfile` or as a conda environment using `environment.yml`.
 
