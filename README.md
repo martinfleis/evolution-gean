@@ -28,11 +28,13 @@ Martin Fleischmann<sup>1</sup>, Alessandra Feliciotti<sup>2</sup>, William Kerr<
 
 The research has been executed within a Docker container `martinfleis/momepy:0.4.2`. Alternatively, the environment can be built using a `Dockerfile` or as a conda environment using `environment.yml`.
 
-To reproduce the analysis locally, download or clone the repository or its archive, navigate to the folder (`cd evolution_gean`) and start docker using the following command:
+To reproduce the analysis in the MyBinder cloud environment: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinfleis/evolution-gean/HEAD)
+
+To reproduce the analysis locally, download or clone the repository or its archive, navigate to the folder (`cd evolution_gean`) and start `docker` using the following command:
 ```
 docker run --rm -ti -p 8888:8888 - -v ${PWD}:/home/jovyan/work martinfleis/momepy:0.4.2
 ```
-which will start Jupyter Lab session on `localhost:8888` and mount the current working directory to `work` folder within the container.
+That will start Jupyter Lab session on `localhost:8888` and mount the current working directory to `work` folder within the container.
 
 Docker container is based on `jupyter/minimal-notebook`. Please see its [documentation](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-minimal-notebook) for details.
 
