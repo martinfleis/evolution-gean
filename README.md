@@ -51,6 +51,8 @@ docker run --rm -ti -p 8888:8888 -v ${PWD}:/home/jovyan/work martinfleis/momepy:
 ```
 That will start Jupyter Lab session on `localhost:8888` and mount the current working directory to `work` folder within the container.
 
+Note that you may need to pass `-e NB_UID=$UID -e NB_GID=100` to the docker command to avoid user permission issues.
+
 Docker container is based on `jupyter/minimal-notebook`. Please see its [documentation](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-minimal-notebook) for details.
 
 ## Abstract
